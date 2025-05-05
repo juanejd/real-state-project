@@ -1,0 +1,41 @@
+# Dependencies
+/node_modules
+/vendor
+package-lock.json
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor folders
+.idea
+.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Cache and logs
+/cache/*
+/logs/*
+*.log
+npm-debug.log*
+
+# Build files
+/dist
+/build
+/public/hot
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Uploaded files (if applicable)
+/public/uploads/*
+/storage/uploads/*
+
+# Database
+*.sql
+*.sqlite
